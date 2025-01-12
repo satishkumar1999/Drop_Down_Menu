@@ -1,0 +1,70 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    /* background:url(../../Downloads/wallhaven-3lv8j6.jpg); */
+    /* background-position: center; */
+    
+}
+ul{
+    list-style-type:none;
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 0px;
+    
+    
+    /* background: url(../../Downloads/wallhaven-3lv8j6.jpg); */
+}
+ul li{
+    /* display: inline block; */
+    display: inline-block;
+    padding: 10px;
+    /* border-right: 1px solid red; */
+
+}
+
+li:hover{
+    background-color: rgb(171, 202, 202);
+}
+.new{display: none;}
+ul li:hover .new{
+    /* color: blue; */
+    display: block;
+    position: absolute;
+    /* margin: 0;
+    padding: 0; */
+    margin-top: 10px;
+    
+    margin-left: -10px;
+    /* /* border: 1px solid red; */
+    /* border-right: 0px solid red; */
+    width: 74px; 
+}
+.new ul {
+    margin: 0;
+    padding: 0;
+
+ 
+}
+.new ul li{
+    display: block;
+}
+.new2{display: none;}
+
+ul li :hover .new2{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: -28px;
+}
+  img{
+    height: 590px;
+    width: 100%;
+    /* padding: 0px; */
+    margin-top: -16px;
+    /* display: inline; */
+    /* image-orientation: flip; */
+
+    /* background-position: 0cqmax;
+    /* background-image: url(../../Downloads/wallhaven-3lv8j6.jpg);  */
+} 
